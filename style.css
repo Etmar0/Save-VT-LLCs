@@ -1,0 +1,42 @@
+/* Center all of your primary and secondary headers */
+#subheading {
+    text-align: center;
+}
+h1, h2 {
+    /* Set the alignment property to center the text */
+    text-align: center;
+    
+    /* Optional: Add a little margin at the bottom so the text below doesn't crowd the header */
+    margin-bottom: 20px;
+}
+
+/* Control the spacing around your paragraphs and lists */
+p, ul {
+    /* Use left and right margins to pull the text away from the edges of the screen */
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    /* Add bottom margin to create space between paragraphs */
+    margin-bottom: 15px;
+}
+
+/* Alternative approach: Instead of adding side margins to every paragraph, 
+   you can constrain the entire main content area and center it on the screen.
+*/
+main {
+    /* Set a maximum width so the text doesn't stretch too far on wide screens */
+    max-width: 800px;
+    
+    /* Use auto margins on the left and right to center the main block on the page */
+    margin: 0 auto;
+    
+    /* Add padding to the inside edges so text never touches the screen border on mobile */
+    padding: 20px;
+}
+#foot {
+    text-align: center;
+}
+body {
+    background-color: #1A2B4C;
+    color: #E0E6ED;
+}
